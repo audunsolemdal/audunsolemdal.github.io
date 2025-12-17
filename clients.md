@@ -7,6 +7,10 @@ permalink: /clients/
 Clients we have helped meet their goals so far.
 Details of what the projects entailed are described <a href="/online-cv#projects"> here</a>.
 
+<a class="image client" href="https://riksantikvaren.no/"><img src="/assets/img/riksantikvaren.svg" alt="Riksantikvaren" /></a>
+
+May 2025 - present (part time via contract from Norwegian Environment Agency)
+
 <a class="image client" href="https://artsdatabanken.no/"><img src="/assets/img/adb.png" alt="Artsdatabanken" /></a>
 
 May 2023 - present (part time via contract from Norwegian Environment Agency)
