@@ -1,0 +1,27 @@
+name: Jekyll build
+
+on:
+  pull_request:
+  #push:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Clear Jekyll caches
+        run: rm -rf .jekyll-cache .sass-cache .jekyll-metadata
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
