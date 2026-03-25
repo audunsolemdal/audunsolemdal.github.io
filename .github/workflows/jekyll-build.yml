@@ -20,5 +20,8 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Clear Jekyll caches
+        run: rm -rf .jekyll-cache .sass-cache .jekyll-metadata
+
       - name: Build site
         run: bundle exec jekyll build --trace
