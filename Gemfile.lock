@@ -3,8 +3,10 @@ GEM
   specs:
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.3.0)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
+    csv (3.3.5)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -68,6 +70,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  base64
+  csv
   jekyll-seo-tag
   jekyll-sitemap
   logger
