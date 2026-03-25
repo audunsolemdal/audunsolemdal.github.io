@@ -3,7 +3,11 @@
 source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
+gem 'logger'
 gem 'rexml', '>= 3.4.2'
 # gem "rails"
